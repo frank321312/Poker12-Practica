@@ -19,7 +19,7 @@ public class EscaleraReal : IJugada
         if (sonCorazones || sonDiamantes || sonPicas || sonTreboles) 
         { 
             var ordenadasPorValor = cartas.OrderBy(x => x.Valor).ToList(); 
-
+ 
             var filtrarJugada = cartas.Where(x => x.Valor == EValor.As || 
                                                         x.Valor == EValor.Diez || 
                                                         x.Valor == EValor.J || 

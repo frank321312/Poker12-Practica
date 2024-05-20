@@ -1,4 +1,3 @@
-using Poker12.Core.Jugadas;
 namespace Poker12.Core.Jugadas;
 
 public class EscaleraColor : IJugada
